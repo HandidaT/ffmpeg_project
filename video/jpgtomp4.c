@@ -10,7 +10,7 @@
 #include <libswresample/swresample.h>
 
 #define STREAM_DURATION   1
-#define STREAM_FRAME_RATE 3 /* 2 image/s */
+#define STREAM_FRAME_RATE 2 /* 2 image/s */
 #define STREAM_PIX_FMT    AV_PIX_FMT_YUV420P /* default pix_fmt */
 
 #define SCALE_FLAGS SWS_BICUBIC
